@@ -69,3 +69,17 @@ function mergeStrings(str1, str2){
 
 console.log(mergeStrings("hello", "world123"))
 
+
+// flatten the array
+const arr2= [[1,2], [3,4], [5,6]]
+const flattenArr=[]
+for (let i of arr2){
+    for (let num of i){
+        flattenArr.push(num)
+
+
+    }
+}
+console.log(flattenArr)
+
+
