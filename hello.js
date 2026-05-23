@@ -36,3 +36,16 @@ let b ={name: 'Adarsha'}
 let z={...a}
 z.name = "Adil"
 console.log(b) // prints name:adarsha
+
+// 5 curry function
+function curryFunc(a){
+    return function (b){
+        return function (c){
+            return a*b*c
+        }
+    }
+}
+console.log(curryFunc(1)(2)(3))
+
+// 6 
+
