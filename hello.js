@@ -47,5 +47,25 @@ function curryFunc(a){
 }
 console.log(curryFunc(1)(2)(3))
 
-// 6 
+// 6 merge string alternatively
+function mergeStrings(str1, str2){
+    let minlength = Math.min(str1.length, str2.length)
+    let result = ""
+
+    for (let i=0; i<minlength; i++){
+        result = result + str1[i]
+        result = result + str2[i]
+
+
+    }
+
+    result = result + str1.slice(minlength)
+    result = result + str2.slice(minlength)
+
+    return result
+
+
+}
+
+console.log(mergeStrings("hello", "world123"))
 
