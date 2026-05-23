@@ -28,3 +28,11 @@ console.log(res, anotherVar, newVar)
 // 3. what is the output
 console.log(true == '') // its going to be false because == converts both side to sam data type and compares if equal. true becomes 1 and '' becomes 0
 
+// 4 shallow copy just copies the surface top level of the object. If the object has nested array or object
+// then both copied and original data will share same memory address or reference that belongs to the nested data
+// so if the nested data is changed, both original and copy changes.
+// In deep copy, everything is copied. Both original and copied data will have separate memory address for nested data.
+let b ={name: 'Adarsha'}
+let z={...a}
+z.name = "Adil"
+console.log(b) // prints name:adarsha
