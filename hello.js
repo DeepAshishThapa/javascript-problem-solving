@@ -25,3 +25,6 @@ const newVar= str.includes('ll')
 // and str.incldes('ll') if there is a substring in the string which is sequetially as 'll'
 console.log(res, anotherVar, newVar)
 
+// 3. what is the output
+console.log(true == '') // its going to be false because == converts both side to sam data type and compares if equal. true becomes 1 and '' becomes 0
+
