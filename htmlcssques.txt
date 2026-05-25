@@ -1,0 +1,12 @@
+1. What is formatting in html?
+Formatting means using special tags to change the appearance of the text on web page. We can use bold, italic, underline, strong,
+etc.
+
+2. Tell me the difference bwtween bold and strong?
+Bold and strong are both used to hightlight the text in web page. But the difference is seen in screen reader. The text
+highlighted by bold is usually expressed and pronounciated in same tone while for strong its expressed in different tone
+which are usually used to provide meaning to text or words like warning, or emergency.
+
+3. What is the use of required attribute in element?
+Required attribute is used when we want the use to fillup the element compulsorily. Like in input element we use required 
+attribute when we want to fill up forms for email, password.
