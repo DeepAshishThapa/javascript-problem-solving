@@ -25,5 +25,13 @@
     // The component that has its own dynamic data, managed by usestate hook and can change its data causing itself to rerender 
     // are stateful componet. The componenet that donot have its own dynamic data and relies on parent component to manage the data 
     // instead of usestate hook are stateless component.
-    
+
+    // 7. whats the rule of fragment in jsx?
+    // The rule of fragment implies that every functional components in react should only return single root element. If two
+    // adjacent elements are returned, then it throws error. So, for this we use react fragment which is an empty tag and wrap
+    // all our elements inside it.
+
+    // 8. What is JSX?
+    // JSX is javascript XML which is a syntax extension for js that allows us to write html and js code in single same file.
+
     
