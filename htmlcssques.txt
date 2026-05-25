@@ -10,3 +10,19 @@ which are usually used to provide meaning to text or words like warning, or emer
 3. What is the use of required attribute in element?
 Required attribute is used when we want the use to fillup the element compulsorily. Like in input element we use required 
 attribute when we want to fill up forms for email, password.
+
+4. What are empty tags?
+The tags which donot require the closing tag like <br> <img> <hr>.
+
+5. Whats the difference in <div> and <span>?
+<div> is a block element which means it covers the whole width 100% when used while span is inline element and takes the width
+only required by it.
+
+6. what is the difference between display none and visibiluty.
+Display none completely erases the element from the ui and it wont cover any width and height. Visibility makes the element 
+100% transparent but the element will still hold physical attribues and cover height and width.
+
+7. What is specificity in css?
+specificity is a set of rules browser uses to determine which css property values are most relevant to an element. If an 
+element has two conflicting css selectors then browser calculates specificity for both and the higher one gets applied.
+
