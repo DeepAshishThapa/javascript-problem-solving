@@ -15,5 +15,15 @@
     // our installed external dependencies and libraries are stored for our project. While npm is node package manager which 
     // is default package manager for js runtime environment , npm helps to instal and uninstall all the external dependencies and 
     // libraries to our project in the node modules folder. 
-
+ 
+    // 5. What is package.json?
+    // package.json is a file that provides overview of all our dependencies and scripts. So, whenever someone downloads 
+    // our project from github to their computer, npm looks into package.json file and downloads all the dependencies needed in 
+    // node modules folder.
+    
+    // 6. What is the difference between stateful and stateless component?
+    // The component that has its own dynamic data, managed by usestate hook and can change its data causing itself to rerender 
+    // are stateful componet. The componenet that donot have its own dynamic data and relies on parent component to manage the data 
+    // instead of usestate hook are stateless component.
+    
     
