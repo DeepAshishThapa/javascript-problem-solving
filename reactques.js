@@ -45,6 +45,13 @@
     // we keep that cariable inside dependency arry. Then if we want the code to run after compoennt unmounts we run a cleanup 
     // function which is a function returned inside useeffect.
 
-    
+    // 11. What is the difference bwtween client side rendering and server side rendering?
+    // In client side rendering the frontend code is sent to the browser and browser downlaods all the code and runs inside it.
+    // But in server side rendeing the code runs in the server and the alreadt rendered html page is sent to the browser. So, SSR
+    // improves performance in this way by reducing initial page load and improving SEO.
+
+    // what happens if we pass null as dependency array in useeffect?
+    // So when we use null, it causes infinite loop and crashes the app as the useeffect runs in every single rerender.
+
 
     
