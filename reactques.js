@@ -34,4 +34,17 @@
     // 8. What is JSX?
     // JSX is javascript XML which is a syntax extension for js that allows us to write html and js code in single same file.
 
+    // 9. Explain lifecycle methods of react.
+    //  There are 3 lifecycle methods of react: Mouting, updating and unmounting. Mounting is wheh component renders for 
+    //  the first time and shown in the screen. Updating is when state changes and component rerenders to update the the UI.
+    // Unmounting is when component is removed from the UI which usually happens when we navigate to other pages.
+
+    // 10. how u use useeffect to manage life cycle methods?
+    // So, we manag it by using dependency array. If we want the code to run only affter component's first render, we keep code
+    // inside callback function in useeffect and keep dependency array empty. If we want the code to run whenever te satae changes,
+    // we keep that cariable inside dependency arry. Then if we want the code to run after compoennt unmounts we run a cleanup 
+    // function which is a function returned inside useeffect.
+
+    
+
     
