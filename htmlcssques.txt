@@ -26,3 +26,14 @@ Display none completely erases the element from the ui and it wont cover any wid
 specificity is a set of rules browser uses to determine which css property values are most relevant to an element. If an 
 element has two conflicting css selectors then browser calculates specificity for both and the higher one gets applied.
 
+8. How do you use gradients in css?
+We use gradients by using background property in css. There are three gradients linear, radical and conical and we can pas
+two or more colors for styling.
+
+9. Differentiate between flexbox and grid?
+flex box is 1d and grid is 2d which are used to align elemennts. But flex box is 1d and aligs in row or column but not both
+at the same time. While grid can aligh elements in row and column at the same time.
+
+10. what is css overflow?
+
+
