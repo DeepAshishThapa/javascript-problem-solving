@@ -83,5 +83,26 @@ for (let i of arr2){
 console.log(flattenArr)
 
 
-//  
+// 8. wht will be the output?
+function a(){
+    console.log(a.xyz)
+}
 
+a()    // undefined
+a.xyz=400
+a.xyz=200 
+
+a()    // 200 because in javascript functions are all converted as objects. So, .xyz is a property which is 
+       // undefined at first then we assign as 400, then again reasign as 200 and then it prints 200.
+    
+
+// 9. Event propagation is the mechanism that determines the order in which event handlers are fired when an action like 
+// click happens in web page. There are 3 phases: capturing phase, target phase and bubbling phase. Capturin phase is when 
+// event goes from top DOM to the inner parent element and goes downward one by one. target phase is when event arrives at the
+// target element, the exact html element that triggered the event. The bubbling phase is when the event moves from the 
+// targeted element to the parent element and moves in upward direction reaching to body, html and finally window. 
+
+// 10. wht will be the output
+const num=[1,2,3,4]
+num[100]=500
+console.log(num)
