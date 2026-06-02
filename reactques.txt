@@ -77,6 +77,18 @@
      Prop drilling is the process of passing prop from high level parent component through multiple layers of intermidiate
      child components just to reach the deeply nested child component that actually needs the data. 
 
+     17. What is app.jsx?
+     app.jsx is a jsx file which is a global layout for our react application where all our components like navbar,
+     header, footer goes into. If we are building multi-page website using react router, then it is also a place where
+     we define all page urls.
+
+     18. What is the difference between real dom and vitual dom?
+     so basically real dom is browser's official javascript object representation of html document which broeser uses to paint 
+     the ui and virtual dom is light weight javascript object representation of real dom. And modifying real dom directly is 
+     expensive and slow but modifying virtual dom is easy hence, virtual dom is updated first whenever rerender happens and 
+     then necessay parts of real dom is changed to update the ui.
+
+
 
 
 
