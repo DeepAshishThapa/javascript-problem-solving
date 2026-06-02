@@ -88,6 +88,16 @@
      expensive and slow but modifying virtual dom is easy hence, virtual dom is updated first whenever rerender happens and 
      then necessay parts of real dom is changed to update the ui.
 
+     19. How do you validate the forms in react?
+     We can validate forms manually using usestate hook to keep track of text inside the controlled elements like input and 
+     use event handler onchange to update the state as user types in the input box.
+
+     20. How does the modern frontend build pipeline work, and what roles do tools like Webpack, Vite, and compilers
+     play in transforming and optimizing code (including JSX and Tailwind CSS) for the browser?
+     So, Browser can only understand plain javascript, html and css files. So, tools like vite bundles all our jsx files in 
+     react into plain js, html and css file so that browser can download those files and run inside itself.
+
+     21. What is action in redux?
 
 
 
