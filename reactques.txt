@@ -69,7 +69,15 @@
           }
       },[])
 
-      
+     15. Whats the difference between context API and redux?
+     Both is used for global state management and solve issue like prop drilling. Context API comes builtin with react used for
+     smaller applications while redux is completely separate external library used for bigger applications.
+
+     16. What is prop drilling?
+     Prop drilling is the process of passing prop from high level parent component through multiple layers of intermidiate
+     child components just to reach the deeply nested child component that actually needs the data. 
+
+
 
 
 
