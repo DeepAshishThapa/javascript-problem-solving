@@ -34,6 +34,14 @@ two or more colors for styling.
 flex box is 1d and grid is 2d which are used to align elemennts. But flex box is 1d and aligs in row or column but not both
 at the same time. While grid can aligh elements in row and column at the same time.
 
-10. what is css overflow?
+10. What is void element?
+Element that should contain no content and donot have closing tag. Eg: img, input, br, hr.
+
+11. What is the difference between <select> and <datalist>
+Both <select> and <datalist> are used for creating dropdown menus as choice lists for users. <select> is element that strict and 
+user can only chose from the options we provided in the list. But with dataset, we can type the value we want or chose the option we 
+want from dropdown menu, providing both options.
+
+
 
 
