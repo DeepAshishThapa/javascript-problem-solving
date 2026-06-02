@@ -53,5 +53,26 @@
      12. what happens if we pass null as dependency array in useeffect?
      So when we use null, it causes infinite loop and crashes the app as the useeffect runs in every single rerender.
 
+     13. Whats the difference in useMemo and useCallback?
+     so basially both hooks are used for performance optimization. usememo is used to cache the result of function for example
+      sth like big calculations so that they dont run on every rerendering of component funtion. While usecallback is used to 
+      memoize the function reference. So in every rerender the the same function is recreated from stratch, so when child 
+      component is using the function as prop, then it thinks the prop has changed and rerenders the child component unnecessarily.
+      So, usecallback prevents that. 
+
+      14. useEffect(()=>{   useEffect hook with cleanup function. Cleanup functon is a function retuned inside useEffect callback
+                            function which runs when the component unmounts and also runs when dependency is changed and useEffect
+                            has to run again. it runs first then runs the code in useEffect.
+
+          return ()=>{
+
+          }
+      },[])
+
+      
+
+
+
+
 
     
