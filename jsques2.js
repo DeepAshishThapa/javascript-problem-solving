@@ -26,4 +26,50 @@ const findthevalue = arr2.find((value)=>value>4)
 
 console.log(findthevalue)
 
+// 7
+console.log('A' - 1);  // NaN as its invalid mathematical operation 
+console.log("tilak" + '100');
+
+// 8
+console.log('2' + 2 + '2')  //222 2 number converts to string become '22' and then becomes '222'
+console.log('2'+2-'2')   //+ concatenate string 2 with 2 and becomes string 22 and - does mathenatical subtraction so it converts
+                         // string 22 to number 22 and string to number 2 and bcomes number 20
+
+// 9 
+const a={}
+const b= {name: 'tilak'}
+const c={name: 'deep'}
+
+a[b] = {name:'ankit'}
+a[c] = {name: 'rahul'}
+
+console.log(a[b])   
+ 
+// 10 
+const y = 0
+const z = false
+console.log(y==z)
+console.log(y===z)
+
+// 11 both will give false because both NaN will be different values
+console.log(NaN == NaN)
+console.log(NaN === NaN)
+
+// 12
+const arr3 = [1,2,3,4]
+
+const newarr=arr3.map((num)=>{
+    return num>2
+})
+console.log(newarr)
+
+// 13 
+
+
+
+
+
+
+
+
  
