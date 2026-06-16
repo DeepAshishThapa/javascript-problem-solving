@@ -63,7 +63,39 @@ const newarr=arr3.map((num)=>{
 })
 console.log(newarr)
 
-// 13 
+// 13 high level function is any function that accepts function as paramter or returns the a function 
+// eg1 taking function as parameter
+function fun1(name){
+    return `hello ${name}`
+
+}
+function fun2(callback){
+   return callback('deep')
+}
+console.log(fun2(fun1))
+// eg 2 returning function
+function fun3(){
+    return function fun4(){
+        return "hi"
+    }
+}
+
+const greeting = fun3()
+console.log(greeting())
+
+// 14 infinite curry function
+function add(a) {
+    return function(b) {
+        // If 'b' is provided, we aren't done yet! 
+        // We do the math (a + b) and pass the new total back into add()
+        if (b !== undefined) {
+            return add(a + b); 
+        }
+        // If 'b' is empty (), stop the madness and return the final total!
+        return a;
+    }
+}   
+console.log(add(1)(2)(3)())
 
 
 
