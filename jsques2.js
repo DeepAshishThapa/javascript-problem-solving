@@ -97,6 +97,23 @@ function add(a) {
 }   
 console.log(add(1)(2)(3)())
 
+// 15 destructuring array and object
+const desarray=[1, 2, 3]
+const [first, second] = desarray
+console.log(first)
+const desobj={
+    name: "deep",
+    grade: 10
+}
+const {name, grade} = desobj
+console.log(name)
+
+// 16 Hoisting is js behaviour of processing variable declarations before code execution. So what it does is 
+// it scans the whole scope before executing the code and registers the variable in the memory.
+// Temporal Dead Zone is the period between entering th scope and the point where let or const variable is initialized. 
+// During this period, the variable gets registered in the memory because of hoisting but they cannot be accessed. Tryign to 
+// access them before initialization gives error.
+
 
 
 
