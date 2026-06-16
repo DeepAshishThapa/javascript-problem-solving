@@ -42,6 +42,13 @@ Both <select> and <datalist> are used for creating dropdown menus as choice list
 user can only chose from the options we provided in the list. But with dataset, we can type the value we want or chose the option we 
 want from dropdown menu, providing both options.
 
+12. What is pseudo-class?
+pseudo class is a keyword added to the css selector using a single colon : that can apply different styles like hover,
+focus, active, etc.
+
+13. anchor tag is used to create hyperlink for the user to navigate us in given place. link tag is used to connect external
+resources to the webpage.
+
 
 
 
