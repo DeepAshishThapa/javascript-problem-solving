@@ -49,6 +49,17 @@ focus, active, etc.
 13. anchor tag is used to create hyperlink for the user to navigate us in given place. link tag is used to connect external
 resources to the webpage.
 
+14. What is the difference between <i> and <em> tags?
+<i> tag is used to slant the text to hightlight it visually but it donot privide any difference to screen reader. But <em> tag
+slats the text visaully as well as makes the the screen reader pronounce the highlighted text in different tone providing more 
+emphasis to the listener.
+
+15. What is universal selector?
+Universal selector is a css selector that selects every HTML elements of entire web page at once.
+
+
+
+
 
 
 
