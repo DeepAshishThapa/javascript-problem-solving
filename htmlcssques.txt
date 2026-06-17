@@ -57,6 +57,18 @@ emphasis to the listener.
 15. What is universal selector?
 Universal selector is a css selector that selects every HTML elements of entire web page at once.
 
+16. Explain positioning properties in css?
+There are 5 main positioning properties in css: Static, relative, absolute, fixed and sticky.
+Static is natural behaviour of every HTML element. Elements stack next to eachother based on normal order of HTML document.
+Relative makes the element stay in normal document layout flow but u can move it away from its original position using top,
+bottom, letf or right properties.
+Absolute positions completely makes the element out of normal document layout flow and it will position itself relative to nearest
+parent positioned element.
+Fixed positions like absolute completely rips the element out of normal document layout flow and positions itself relative to
+entire window but it stays completely locked in one place even when user scrolls down the page.
+Sticky position is mixed of relative and fixed. It behaves normal until the user scrolls past and it hits a specific threshold 
+at which it snaps and will stop sticking at fixed position.
+
 
 
 
