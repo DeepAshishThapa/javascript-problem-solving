@@ -127,5 +127,30 @@ console.log(num)
 // 13 all arrays typeof is an object
  console.log(typeof {name:"deep"})
 
+ // 14 different scopes available in javascript
+ // Global, function and block scope.
+
+ // 15 it will print 500 as var is not block scoped so x will be reinitialized as 500 and apple will be 500 
+ var x = 100
+ {
+    var x = 500
+ }
+ let apple = x
+ {
+    let apple = 10000
+ }
+
+ console.log(apple)
+
+ // 16 list all structues of loop in javascript
+ // For loop, while loop, do while loop, for each loop, for of , for in
+
+ // 17 whts is the difference between for each and map loop
+//  map can return the new array based on out calculation with the same length as original array bit for each donot return anything 
+//  if we try to access the return value of for each it will be undefined but its not necessary to transform
+
+
+
+
  
 
