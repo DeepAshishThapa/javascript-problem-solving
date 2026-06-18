@@ -69,6 +69,19 @@ entire window but it stays completely locked in one place even when user scrolls
 Sticky position is mixed of relative and fixed. It behaves normal until the user scrolls past and it hits a specific threshold 
 at which it snaps and will stop sticking at fixed position.
 
+17. how can we vertically center a text in css?
+we can vertically center using dsplay flex and align items center on the parent element.
+
+18. Whts meta tag and progress tag.
+Meta tag is an HTML tag that provides metadata which is hidden configuration data about the webpage. It lives inside <head> tag
+and invisible to user visiting the page but they are crucial because they give vital instructions to web browsers and search
+engine.
+The progress tag is an HTML tag used to display a native progress bar on a webpage which lives inside the body tag to represent 
+completion progress of a task like uploading or download. 
+
+19. whts the difference between css border and css outlet.
+ when we add border it will make the element grow physically bigger as the border gets added on top of its width and height but 
+ when we add outline the size of the element is same as original.
 
 
 
