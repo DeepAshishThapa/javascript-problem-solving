@@ -136,6 +136,28 @@ function highproduct(arr4){
 const highestproduct = highproduct(arr4)
 console.log(highestproduct)
 
+// 19 cleaning or deleting, mutating the array fully
+const arr5 = [1,2,4,5]
+arr5.splice(0,arr5.length)
+console.log(arr5)
+
+// 20 merge the two objects
+const obj1 ={
+    name: "deep",
+    age: 20
+}
+
+const obj2 = {
+    name:"rahul",
+    age: 18
+}
+
+const obj3={
+    name: [obj1.name, obj2.name],
+    age: [obj1.age, obj2.age]
+
+}
+console.log(obj3)
 
 
 
