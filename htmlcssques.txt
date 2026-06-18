@@ -83,7 +83,16 @@ completion progress of a task like uploading or download.
  when we add border it will make the element grow physically bigger as the border gets added on top of its width and height but 
  when we add outline the size of the element is same as original.
 
+20. whts the difference between pseudo class and pseudo elements.
+Pseudo class is a keyword added to css selector after a single colon adding different styles like hover, active, focus, etc.
+But pseudo element donot require user action like hovering to element or selecting input box used after double color.
+It acts like creating a brand new  imaginary HTML element to style a specific piece of your content.
 
+21. whts box sizing property in css?
+Box sizing property tells browser how to caltulate total width and height of an element.
+By default, browser uses content-box box sizing property. In this setting, width and height gets added and if we add padding 
+they get added on top of the width and height making it expand more. But border-box makes sure that whtever width and height
+we gave is the total final size of the element. 
 
 
 
