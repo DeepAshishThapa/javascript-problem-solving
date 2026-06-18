@@ -114,6 +114,31 @@ console.log(name)
 // During this period, the variable gets registered in the memory because of hoisting but they cannot be accessed. Tryign to 
 // access them before initialization gives error.
 
+// 17 example of showing temporal dead zone
+// function temporal(){
+//     console.log(a)
+//     let a = 2
+// }
+// temporal()
+
+// 18 return the highest product from the array between two numbers
+const arr4 = [1,2,3,4,5,6]
+
+function highproduct(arr4){
+    arr4.sort((a, b)=>b - a);
+
+    let max1 = arr4[0]
+    let max2 = arr4[1]
+
+    return max1 * max2
+
+}
+const highestproduct = highproduct(arr4)
+console.log(highestproduct)
+
+
+
+
 
 
 
