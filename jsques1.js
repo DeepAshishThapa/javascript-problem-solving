@@ -53,7 +53,7 @@ function mergeStrings(str1, str2){
     let result = ""
 
     for (let i=0; i<minlength; i++){
-        result = result + str1[i]
+         result = result + str1[i]
         result = result + str2[i]
 
 
@@ -70,6 +70,8 @@ function mergeStrings(str1, str2){
 console.log(mergeStrings("hello", "world123"))
 
 
+
+
 // 7. flatten the array
 const arr2= [[1,2], [3,4], [5,6]]
 const flattenArr=[]
@@ -84,16 +86,16 @@ console.log(flattenArr)
 
 
 // 8. wht will be the output?
-function a(){
-    console.log(a.xyz)
-}
+// function a(){
+//     console.log(a.xyz)
+// }
 
-a()    // undefined
-a.xyz=400
-a.xyz=200 
+// a()    // undefined
+// a.xyz=400
+// a.xyz=200 
 
-a()    // 200 because in javascript functions are all converted as objects. So, .xyz is a property which is 
-       // undefined at first then we assign as 400, then again reasign as 200 and then it prints 200.
+// a()    // 200 because in javascript functions are all converted as objects. So, .xyz is a property which is 
+//        // undefined at first then we assign as 400, then again reasign as 200 and then it prints 200.
     
 
 // 9. Event propagation is the mechanism that determines the order in which event handlers are fired when an action like 
@@ -106,3 +108,24 @@ a()    // 200 because in javascript functions are all converted as objects. So, 
 const num=[1,2,3,4]
 num[100]=500
 console.log(num)
+
+// 11. Whats rest parameters?
+ //  Rest parameter is parameter that allows function to accept indefinite number of arguments as a single javascript array 
+ // by using triple ... inside the function where we accpet parameter.
+ function resParam(...parm){
+    console.log(parm)
+ }
+ resParam(1,2,4)
+
+ // 12 another example of rest parameter with another normal parameter
+ function restPara( x, ...rest){
+    return rest
+ }
+
+ console.log(restPara(10, 12, 34, 56, 'hello'));
+
+// 13 all arrays typeof is an object
+ console.log(typeof {name:"deep"})
+
+ 
+
