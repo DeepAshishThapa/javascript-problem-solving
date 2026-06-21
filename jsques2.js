@@ -15,7 +15,7 @@ console.log([1,2].map((num)=>{
     if (num>0) return;
     return num *2
 }))
-
+    
 // 5. slice is a built in function in js used to extract a section of array or string and returns new array or string without
 // modifying the original data. While splice is built in function used to add, remove or replace items inside existing array.
 
@@ -158,6 +158,17 @@ const obj3={
 
 }
 console.log(obj3)
+
+// 21. so basically javascript is single threaded synchronous so it handles one thing at a time and after completion it goes to another work. But for aynchoronous 
+// code like timers or api calls, it is hanndled by browser builtin tool web apis to prevent freezing. The js has one main callstack and the top code in tha stack 
+// gets ecexuted one by one. But asynchronous code are taken out of the stack and handled in the background. When it finishes it is brought back to the callstack for 
+// execution by callback queue. And in this process event loop is important because it makes sure that the callstack is empty then it brings the a
+// synchronous code back.
+
+// The Event Loop is a constantly running mechanism in JavaScript that coordinates execution by monitoring the Call Stack and moving asynchronous callbacks from the 
+// Callback Queue to the stack once it is completely empty.
+
+
 
 
 
