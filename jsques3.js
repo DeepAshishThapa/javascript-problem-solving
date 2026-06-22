@@ -39,9 +39,28 @@ function isPalindrome(str){
 
 console.log(isPalindrome("racecar"))
 
-// comparing the two arrays, 
+// 4 comparing the two arrays or objects
 let arr1 = [100, 200, 300, 400]
 let arr2 = [100, 200, 300, 400]
+ 
+const isEqual = JSON.stringify(arr1) == JSON.stringify(arr2)
+console.log(isEqual)
+
+// 5 output will be true because when we use == it will convert both sides into same data type, both is coverted to 0 and 
+// will return true as they are equal.
+console.log(null == undefined)
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
