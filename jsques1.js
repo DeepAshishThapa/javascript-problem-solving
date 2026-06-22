@@ -54,7 +54,7 @@ function mergeStrings(str1, str2){
 
     for (let i=0; i<minlength; i++){
          result = result + str1[i]
-        result = result + str2[i]
+        result = result + str2[i]   
 
 
     }
@@ -102,7 +102,19 @@ console.log(flattenArr)
 // click happens in web page. There are 3 phases: capturing phase, target phase and bubbling phase. Capturin phase is when 
 // event goes from top DOM to the inner parent element and goes downward one by one. target phase is when event arrives at the
 // target element, the exact html element that triggered the event. The bubbling phase is when the event moves from the 
-// targeted element to the parent element and moves in upward direction reaching to body, html and finally window. 
+// targeted element to the parent element and moves in upward direction reaching to body, html and finally window.\
+// const list = document.getElementById('todo-list');
+
+// // We only attach ONE event listener to the parent <ul>!
+// list.addEventListener('click', function(event) {
+  
+//   // event.target is the exact, specific <li> that was clicked!
+//   if (event.target.classList.contains('item')) {
+//     console.log("You clicked on item: " + event.target.innerText);
+//     event.target.style.textDecoration = 'line-through'; // Cross it out
+//   }
+  
+// }); 
 
 // 10. wht will be the output
 const num=[1,2,3,4]
@@ -148,6 +160,20 @@ console.log(num)
  // 17 whts is the difference between for each and map loop
 //  map can return the new array based on out calculation with the same length as original array bit for each donot return anything 
 //  if we try to access the return value of for each it will be undefined but its not necessary to transform
+
+// 18 why we use join method?
+// The join method creates and returns new string by concatenating all the elements in an array separated by a specific 
+// separator sting.
+const fruits = ['apple', 'banana', 'orange']
+
+const fruitString = fruits.join('+')
+console.log(fruitString)
+
+// 19 why do we use split method?
+// Split method takes a string and breaks it apart into array of small strings based on separator you choose. 
+  const sentence = "HTML-CSS-Javascript"
+  const tools = sentence.split("-")
+  console.log(tools)
 
 
 
