@@ -50,6 +50,35 @@ console.log(isEqual)
 // will return true as they are equal.
 console.log(null == undefined)
 
+// 6 assign a new array of size 100
+const arr = new Array(100).fill(0)
+console.log(arr)
+
+// 7. How to check the data type of variable and type od NaN is number, type of null is object and undefined is undefined.
+const x = 1
+console.log(typeof x)
+
+// 8. All variables are stored in RAM, which the system splits into two distinct regions stack and heap. A stack is fast, 
+// highly organized but small memory space. It operates on a strict structure where things are piled on top of each other.
+// A heap is a massive dynamic but less organized memory space to store large or unpredictable sized pieces of data. 
+
+// 9. Whts is primitive and non primitive data types.
+// Primitive data types are data stored directly in the stack memory where the variable name and its actual, exact value lives
+// in stack like number, boolean, undefined, string, etc. They are Immutable.
+// Non primitive data types are the data that lives in the heap memory where the stack doesn't hold the data instead the stack
+// only stores the memory reference or address that points where the data is inside the heap. Link objects, function and array.
+
+// 10 Assignment (=): Copies only the memory address. Both variables now point to the exact same object in the Heap. Changing
+//  one changes the other.
+// Shallow Copy: Creates a brand-new object in the Heap and copies over the top-level values. However, if there are nested objects
+//  inside, it only copies their memory addresses. The sub-objects are still shared.
+// Deep Copy: Recursively clones the main object and every single nested object inside it. This creates a 100% independent clone
+//  in a completely separate part of the Heap.
+
+
+
+
+
 
 
 
