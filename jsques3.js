@@ -75,6 +75,24 @@ console.log(typeof x)
 // Deep Copy: Recursively clones the main object and every single nested object inside it. This creates a 100% independent clone
 //  in a completely separate part of the Heap.
 
+// 11. Showing assignment lazy copy, shallow copy and deep copy
+let originalObj = {name: "Alice"}
+let assignedObj = originalObj
+assignedObj.name = "hello"
+console.log(originalObj)
+
+let originalNested = {name: "Alice", details:{ age: 25 }}
+let shallowObj = {...originalNested}
+shallowObj.name = "Rahul"
+shallowObj.details.age = "20"
+console.log(originalNested.name)
+console.log(originalNested.details.age)
+
+let deepObj = structuredClone(originalNested)
+deepObj.details.age = 99
+console.log(originalNested.details.age)
+
+
 
 
 
