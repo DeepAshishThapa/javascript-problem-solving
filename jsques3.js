@@ -125,6 +125,20 @@ console.log(emptyarr.length)
 // 16 map method loops through the each element in array and can return the new array of same length but for each only 
 // loops through the element in he array but it doesn't return anything. 
 
+// 17 wht is the output? output is 100, this concept is known as copying of reference
+    const a = {
+        age: 10,
+
+    }
+    b = a
+    b.age = 100
+    console.log(a.age)
+
+// 19 Pure functions are the functions that returns exact same output everytime when same arguments or inputs are provided. 
+// It only relies on the arguments passed into it and doesn't modify anything outside of its own scope. 
+// Impure functions are the functions that can return different outputs when same arguments or inputs are provided. 
+// It can have outside dependencies like global variables or random numbers. It might also modify data outside of its scope.
+
 
 
 
