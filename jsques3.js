@@ -101,6 +101,34 @@ console.log(originalNested.details.age)
 // Filfilled is when operation operation is completed and promise now returns a value and rejected is when operation failed and
 // promise gives error.
 
+// 14 merge strings
+function mergestrings(str1, str2){
+    let minlength = Math.min(str1.length, str2.length)
+    let result = ""
+
+    for (let i=0; i<minlength; i++){
+        result = result + str1[i]
+        result = result + str2[i]
+    
+    }
+    result = result + str1.slice(minlength)
+    result = result + str2.slice(minlength)
+    return result
+
+}
+console.log(mergestrings("st","st"))
+
+// 15 because the last comma is ignored leaving exactly 3 empty slots inside the array
+const emptyarr = [,,,]
+console.log(emptyarr.length)
+
+// 16 map method loops through the each element in array and can return the new array of same length but for each only 
+// loops through the element in he array but it doesn't return anything. 
+
+
+
+
+
 
 
 
