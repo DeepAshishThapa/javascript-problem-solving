@@ -92,6 +92,16 @@ let deepObj = structuredClone(originalNested)
 deepObj.details.age = 99
 console.log(originalNested.details.age)
 
+// 12. Promise chaining is a techique in javascript to execute a sequences of asynchronous tasks one after another instead of
+// nesting callbacks inside callbacks leading to callback hell. We line up asynchronous step using chain of .then blocks and 
+// each .then() receives the result of previous step.
+
+// 13 a promise is javascript object which represents completion or failure of asyncronous operation that has 3 stages pending,
+// fulfilled and rejected. Pending is the initial step where asynchronous code is still running and outcome hasn't been decideed.
+// Filfilled is when operation operation is completed and promise now returns a value and rejected is when operation failed and
+// promise gives error.
+
+
 
 
 
