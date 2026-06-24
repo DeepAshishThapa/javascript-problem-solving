@@ -94,6 +94,14 @@ By default, browser uses content-box box sizing property. In this setting, width
 they get added on top of the width and height making it expand more. But border-box makes sure that whtever width and height
 we gave is the total final size of the element. 
 
+22. Explain the css box models.
+In HTML, every element is treated as rectangular box and box models dictates exactly how the size of that rectabgle is 
+calculated. There are 4 layers of box model which are content, padding, border and margin.
+
+
+
+
+
 
 
 
