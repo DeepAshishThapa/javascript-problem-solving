@@ -139,11 +139,39 @@ console.log(emptyarr.length)
 // Impure functions are the functions that can return different outputs when same arguments or inputs are provided. 
 // It can have outside dependencies like global variables or random numbers. It might also modify data outside of its scope.
 
+// 20 The output is 400. First, var a is initialized in the global scope. Because var is function-scoped and ignores block scopes,
+//  the reassignment a = 400 inside the curly braces updates the global a. Then, let b is initialized globally with the current 
+// value of a (400). The second block creates a completely separate, block-scoped let b = -400, which does not affect the global b.
+//  Therefore, console.log(b) prints the global value, 400
+var a = 200
+{
+    a = 400
+
+}
+let b = a
+{
+    let b = -400
+}
+console.log(b)
 
 
+// 21 What is lexical scope. Lexical scope means that the function remembers the variables that were around it at the moment
+// it was written no matter where you run it later.
+const variable = "Global World";
 
+// 1. checkHometown is WRITTEN directly in the Global World
+function checkHometown() {
+  console.log(variable); 
+}
 
+function anotherFunction() {
+  const variable = "Inside Another Function"; 
+  
+  // 2. checkHometown is RUN (called) inside here
+  checkHometown(); 
+}
 
+anotherFunction();
 
 
 
