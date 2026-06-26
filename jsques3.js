@@ -143,16 +143,16 @@ console.log(emptyarr.length)
 //  the reassignment a = 400 inside the curly braces updates the global a. Then, let b is initialized globally with the current 
 // value of a (400). The second block creates a completely separate, block-scoped let b = -400, which does not affect the global b.
 //  Therefore, console.log(b) prints the global value, 400
-var a = 200
-{
-    a = 400
+// var a = 200
+// {
+//     a = 400
 
-}
-let b = a
-{
-    let b = -400
-}
-console.log(b)
+// }
+// let b = a
+// {
+//     let b = -400
+// }
+// console.log(b)
 
 
 // 21 What is lexical scope. Lexical scope means that the function remembers the variables that were around it at the moment
@@ -172,6 +172,26 @@ function anotherFunction() {
 }
 
 anotherFunction();
+
+// 22  array every and some method
+const everyarr = [1,2,3]
+const isall = everyarr.every((i)=>i < 4)
+console.log(isall)
+
+const somearr = [1,2,3]
+const issome = somearr.some((i)=>i<2)
+console.log(issome)
+
+//23 array indexof and reduce method
+const indexofarr = [3, 2, 1]
+const positionofthree = indexofarr.indexOf(3)
+console.log(positionofthree)
+
+
+
+
+
+
 
 
 
