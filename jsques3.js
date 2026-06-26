@@ -187,6 +187,34 @@ const indexofarr = [3, 2, 1]
 const positionofthree = indexofarr.indexOf(3)
 console.log(positionofthree)
 
+// 24 javascript has three standard built in pop up boxes. Alert() box is used to make sure information gets through to the user.
+// It has only one option button "OK". Its mostly used for simple warnings or updates.
+// Confirm() is used when you need user to verify something. It gives two choices 'ok' or 'cancle'. It returns boolea value true
+// when clicked ok and false when they click cancel. Its used for destructuve actions like deleting item or logging out.
+// Prompt() is used if u want user to type something in before proceeding. It includes a text input box along with "ok" and 
+// "cancel" buttons. It returns the string typed when click ok and and returns null if clicked cancel. Its used for quick, 
+// simple user inputs.
+
+// 25 merge two strings
+let str3 = "krishna"
+let str4 = "veni"
+
+function mergestrings(str3, str4){
+    let minlength = Math.min(str3.length, str4.length)
+    let result = ""
+    for (let i=0; i<minlength; i++){
+        result = result + str3[i]
+        result = result + str4[i]
+
+
+    }
+    result = result + str3.slice(minlength)
+    result = result + str4.slice(minlength)
+    return result
+
+
+}
+console.log(mergestrings("he","he"))
 
 
 
