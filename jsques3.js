@@ -216,6 +216,29 @@ function mergestrings(str3, str4){
 }
 console.log(mergestrings("he","he"))
 
+// 26 sorting array in ascending order
+let arr10 = [300, 8, 900, 400, 600]
+arr10.sort((a, b)=>(a - b))
+console.log(arr10)
+
+// 27 finding the max value in array
+let arr11 = [100, 400, 300]
+let max = arr[0]
+
+for (let num of arr11){
+    if (num > max){
+        max = num
+    }
+}
+console.log(max)
+
+// 28 where do we use use-strict
+ // use scrit is used at the top of the file to detect silent bugs during runtime.
+ 
+
+
+
+
 
 
 
