@@ -166,11 +166,16 @@ console.log(obj3)
 // synchronous code back.
 
 // The Event Loop is a constantly running mechanism in JavaScript that coordinates execution by monitoring the Call Stack and moving asynchronous callbacks from the 
-// Callback Queue to the stack once it is completely empty.
+// Callback Queue to the stack once it is completely empty. 
 
 
-
-
+// 22. Here are the two rules that explain exactly why undefined == "" fails: undefined only likes null
+// Under the strict rules of ==, undefined and null are deeply bonded. They are loosely equal to each other, and absolutely nothing else in the entire language. 
+// // console.log(undefined == null); // true  
+// console.log(undefined == 0);    // false
+// console.log(undefined == false);// false
+// console.log(undefined == "");   // false
+// NaN means operation couldn't be fulfilled mathematical operation. 
 
 
 
