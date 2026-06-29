@@ -177,6 +177,30 @@ console.log(obj3)
 // console.log(undefined == "");   // false
 // NaN means operation couldn't be fulfilled mathematical operation. 
 
+// 23 its return first statement because [] is true
+if ([]){
+    console.log("my name is krishna")
+
+}
+else{
+    console.log("i am not krishna")
+
+}
+
+console.log([]==false) // its going to be true
+
+// 24 so there are two primitiva and non primitive data types. Primitive data type includes numbers(- to +,NaN),
+//  boolean (true, false), string ("123","1a2",""),
+// null, undefined, and non primitive includes object, arrays, etc.
+// when we use if () statement all values inside () is converted to boolean directly. both primitive and non primitive
+// can be converted to boolean directly. null is false, "" is false, undefined is false, 0 is false and non primitive all are
+// converted to true even tho its empty like [].
+// But when it comes to comparision == both sides converts into numbers if they have different data types. So primitve data 
+// types can be converted to number directly false is 0, " " is 0, null is 0 but converting undefied returns NaN which is 
+// number data type. and for non primitive data types they cannot be converted to number directly. So things like [] gets
+// converted to string first becomes "" then into number and ends up being 0. Which is suprising because same value was 
+// converted to true during if statement. Hence, things like false == [] becomes true. 
+
 
 
 
