@@ -28,7 +28,7 @@ console.log(res, anotherVar, newVar)
 // 3. what is the output
 console.log(true == '') // its going to be false because == converts both side to sam data type and compares if equal. true becomes 1 and '' becomes 0
 
-// 4. shallow copy just copies the surface top level of the object. If the object has nested array or object
+// 4. shallow copy just copies the surface top level of the object or array. If the object has nested array or object
 // then both copied and original data will share same memory address or reference that belongs to the nested data
 // so if the nested data is changed, both original and copy changes.
 // In deep copy, everything is copied. Both original and copied data will have separate memory address for nested data.
@@ -37,7 +37,9 @@ let z={...a}
 z.name = "Adil"
 console.log(b) // prints name:adarsha
 
-// 5. curry function
+// 5. curry function is a funcion that takes argments in chain instead of taking them all at once.  So, it takes first argument
+// and returns a new function which takes second argument and returns a new function and so on until all arguments are passed
+
 function curryFunc(a){
     return function (b){
         return function (c){
@@ -174,6 +176,23 @@ console.log(fruitString)
   const sentence = "HTML-CSS-Javascript"
   const tools = sentence.split("-")
   console.log(tools)
+
+
+// 20 it will return 2,3,4,5 because .slice is non-immutating so it dont change the original data
+const arr5 = [2,3,4,5]
+arr5.slice(0,1)
+console.log(arr5)
+
+// 21 it will overwrite the a and b and also the data type of keys are string
+const obj5 = {
+    a: 1,
+    b: 2,
+    c: 3,
+    "a": 6,
+    b: 7
+}
+console.log(obj5)
+
 
 
 
